@@ -9,6 +9,10 @@ import numpy as np
 import torch
 import torch.nn as nn
 
+# ── Attack configuration ──────────────────────────────────────
+EPSILON = 2.3   # adversarial perturbation strength — change here to affect
+                # both 04_attack.py and 06_compare.py
+
 # ── Object classes ────────────────────────────────────────────
 CLASSES = ["Commercial Aircraft", "Fighter Jet", "Helicopter", "Drone"]
 
