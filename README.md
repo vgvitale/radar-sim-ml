@@ -1,6 +1,7 @@
 # Airborne Radar Simulation — ML vs. Traditional Classification
 
 Simulates an airborne radar environment, classifies aircraft contacts using a neural network and a traditional algorithm, and compares their performance.
+NOTE: As making an AI-capable radar simulation is the point of this project, AI was used in this codebase. Particularly the training process, which was fully done via Claude Opus 4.7.
 
 ---
 
